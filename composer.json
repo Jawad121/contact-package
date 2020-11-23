@@ -1,0 +1,19 @@
+{
+    "name": "hexasol/contact",
+    "description": "This will save email content to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hexasol technologies",
+            "email": "jawad.ahmed149@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hexasol\\Contact\\": "src/"
+        }
+    },
+}
