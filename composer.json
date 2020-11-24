@@ -15,5 +15,16 @@
         "psr-4": {
             "Hexasol\\Contact\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hexasol\\Contact\\ContactServiceProvider"
+            ],
+            "aliases": {
+                "ContactForm": "Hexasol\\Contact\\ContactServiceProvider"
+            }
+        }
     }
 }
